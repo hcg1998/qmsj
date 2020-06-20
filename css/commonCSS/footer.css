@@ -1,0 +1,49 @@
+.footer {
+    background: #222222;
+    height: 140px;
+    overflow: hidden;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.footerBox p {
+    color: white;
+    font-size: 14px;
+}
+
+.footer .contactWay a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-color: #607D8B;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.footer .contactWay a:hover {
+    background: #483c49;
+}
+
+.footer .contactWay a img {
+    vertical-align: -2px;
+}
+
+.ljitem{
+    margin-top:20px;
+}
+.ljitem a{
+    text-decoration:none;
+    color:#999;
+    margin-right:15px;
+    font-size:14px;
+}
+.ljitem a:hover{
+    color:red;
+}

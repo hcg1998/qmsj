@@ -1,0 +1,74 @@
+.content {
+    background: #4d8f7f;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+.PersonalEvaluateBox {
+    width: 1200px;
+    display: flex;
+    align-items:center;
+    margin-top: 60px;
+    flex-direction:column;
+}
+
+.PersonalEvaluateItem {
+    height: 360px;
+    width: 320px;
+    background: white;
+    box-shadow: 3px 3px 10px #152450;
+    padding: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PersonalEvaluateItem img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.PersonalEvaluateItem h3 {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.PersonalEvaluateItem p {
+    padding: 0 50px;
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #666;
+}
+
+.PersonalExperienceItem{
+    width:900px;
+    background:white;
+   padding-bottom:30px;
+    box-shadow: 3px 3px 10px #152450;
+    border-radius:5px;
+    display:flex;
+    margin-bottom:30px;
+}
+.PersonalExperienceItem div{
+    padding:20px;
+}
+.PersonalExperienceItem div h4{
+    margin-bottom:20px;
+    color:#333;
+}
+.PersonalExperienceItem div p{
+    line-height:24px;
+    color:#666;
+}
+.PersonalExperienceItem div h4 em{
+    width:22px;
+    height:22px;
+    background:url(../images/time.png) no-repeat center center;
+    display:inline-block;
+    vertical-align:-5px;
+    margin-right:5px;
+}

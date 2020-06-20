@@ -1,0 +1,44 @@
+.content {
+    background: #4d5e8f;
+    width: 100%;
+    height: 700px;
+}
+
+.PersonalEvaluateBox {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.PersonalEvaluateItem {
+    height: 360px;
+    width: 320px;
+    background: white;
+    box-shadow: 3px 3px 10px #152450;
+    padding: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PersonalEvaluateItem img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.PersonalEvaluateItem h3 {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.PersonalEvaluateItem p {
+    padding: 0 50px;
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #666;
+}
